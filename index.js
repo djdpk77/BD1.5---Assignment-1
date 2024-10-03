@@ -3,7 +3,7 @@ let cors = require('cors');
 
 let app = express();
 let port = 3000;
-//app.use(cors);
+app.use(cors);
 
 //Server-side values
 let taxrate = 5; // 5%
